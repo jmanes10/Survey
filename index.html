@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://carolinebarriere.github.io/SEG3125-Module1-Survey/ -->
+<html>
+
+<head>
+    <title>Website Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1 class="centerText">Apple Survey</h1>
+    <form class="firstForm" action="https://carolinebarriere.github.io/SEG3125-Module1-Survey/index.php">
+ 
+        <!-- Choose a website to evaluate -->
+        <h2 class="centerText">What do you think of the UI in this <a href="https://www.apple.com/ca/">Apple</a> website?</h2>
+        <!-- You should make your image clickable -->
+
+        <div>
+            <a href="https://www.apple.com/ca/"> <img class="center" src="https://content.fortune.com/wp-content/uploads/2016/07/screen-shot-2016-07-08-at-10-38-12-am.png" 
+             alt="Apple.ca" width="800"></a>
+        </div>
+
+        <br>
+        <div class="centerText">
+            <h2> Personal Information </h2>
+            <p><b>First name:</b> <br><input type="text" name="firstname"></p>
+            <p><b>Last name:</b> <br><input type="text" name="lastname"></p>
+
+
+        </div>
+
+        <div class="centerText">
+            <h2> What do you like </h2>
+            <b>I like:</b><br>
+            <input type="checkbox" name="Color" value="Red">Red<br>
+            <input type="checkbox" name="Color" value="Green">Green<br>
+            <input type="checkbox" name="Color" value="Blue">Blue<br>
+
+            <br><b>What is your favorite programming language?</b><br>
+            <select id="favorite">
+                <option value="Apples">C/C++</option>
+                <option value="Oranges">JavaScript</option>
+                <option value="Bananas">Ruby</option>
+            </select>
+        </div>
+
+        <br>
+        
+        <div class="centerText">
+            <br> Comments:<br>
+            <textarea rows="5" cols="30"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <button id="submitButton" type="button" class="block">
+                SUBMIT your questionnaire
+            </button>
+        </div>
+
+    </form>
+
+</body>
+
+<footer>
+    <p class="centerText">Website designed by Vanya Prokic</p>
+</footer>
+
+</html>
